@@ -1,0 +1,13 @@
+[project]
+name = "gemini2api"
+version = "0.1.0"
+description = "OpenAI compatible and Gemini native API proxy"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "curl-cffi>=0.16,<1",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    "uvicorn[standard]>=0.32",
+]
+
